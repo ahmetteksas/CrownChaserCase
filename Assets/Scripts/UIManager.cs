@@ -177,7 +177,7 @@ namespace SpinWheel
                     }
                 }
             },
-            randomInt + rotateSpeed);
+            randomInt /*+ rotateSpeed*/);
 
             currentLevelInstance.GetComponentInChildren<Button>().interactable = false;
         }

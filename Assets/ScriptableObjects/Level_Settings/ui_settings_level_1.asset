@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cb94d54d89af354a8d4285c6ecf9f7e, type: 3}
   m_Name: ui_settings_level_1
   m_EditorClassIdentifier: 
-  _minimumRoll: 1
-  _maximumRoll: 7
+  _minimumRoll: 5
+  _maximumRoll: 15
   _rewards:
   - _slotItem: {fileID: 11400000, guid: cdfde0f5b97f378459a43416bfe6c295, type: 2}
     _amount: 1
