@@ -62,12 +62,13 @@ namespace SpinWheel
             if (manager.rotateCount <= 0)
             {
                 Debug.Log(spinButton.gameObject.name);
-
+                manager.getExtraSpin.SetActive(true);
                 spinButton.interactable = false;
             }
             else
             {
                 Debug.Log(spinButton.gameObject.name);
+                manager.getExtraSpin.SetActive(false);
 
                 spinButton.interactable = true;
             }

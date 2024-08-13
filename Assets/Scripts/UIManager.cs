@@ -53,8 +53,8 @@ namespace SpinWheel
 
         //Level number that increases each level starting from level 1
         private int currentLevelNo = 1;
-
-        private Inventory rewardsInventory = new Inventory();
+        public GameObject getExtraSpin;
+        public Inventory rewardsInventory = new Inventory();
         void Start()
         {
             GenerateLevelLabels();

@@ -24,10 +24,10 @@ MonoBehaviour:
   - _slotItem: {fileID: 11400000, guid: cdfde0f5b97f378459a43416bfe6c295, type: 2}
     _amount: 100
   - _slotItem: {fileID: 11400000, guid: cdfde0f5b97f378459a43416bfe6c295, type: 2}
+    _amount: 25
+  - _slotItem: {fileID: 11400000, guid: cdfde0f5b97f378459a43416bfe6c295, type: 2}
+    _amount: 25
+  - _slotItem: {fileID: 11400000, guid: cdfde0f5b97f378459a43416bfe6c295, type: 2}
+    _amount: 1
+  - _slotItem: {fileID: 11400000, guid: cdfde0f5b97f378459a43416bfe6c295, type: 2}
     _amount: 1000
-  - _slotItem: {fileID: 11400000, guid: cdfde0f5b97f378459a43416bfe6c295, type: 2}
-    _amount: 10000
-  - _slotItem: {fileID: 11400000, guid: cdfde0f5b97f378459a43416bfe6c295, type: 2}
-    _amount: 1000000
-  - _slotItem: {fileID: 11400000, guid: cdfde0f5b97f378459a43416bfe6c295, type: 2}
-    _amount: 100000
