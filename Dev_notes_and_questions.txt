@@ -1,0 +1,11 @@
+Notlar:
+
+- Bu projede Async çok fazla olay olmadığı için (çoğunlukla buttonlar) ve bu olaylar genelde biri yapıldığında öbürü kullanılamaz hale geldiği için Event Bus gereksiz olduğunu düşündüm.
+Async olaylar olsa bile neredeyse hepsi scene'i değiştiren olaylar ve bu da geride kalan fonksiyonların çağrılmaya devam etmediği bi durum.
+
+-Event Bus'ın özeti event'ler ve bir Event Bus var, objeler bu event'lere callback fonksiyonları ile subscribe oluyor ve her bu event gerçekleştiğinde hepsinin callbackleri çağrılıyor.
+
+Sorular:
+
+- UIMANAGER 78. SATIR factory yapmak mı daha mantıklı yoksa farklı bir yöntem ile instantiate e parameter vermek gibi bir şansımız var mı?
+
