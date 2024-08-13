@@ -2511,25 +2511,25 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
-  - {fileID: 11400000, guid: e3806918038bcb84f8b26d758f7648cd, type: 2}
-  - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
-  - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
-  - {fileID: 11400000, guid: e3806918038bcb84f8b26d758f7648cd, type: 2}
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
-  - {fileID: 11400000, guid: e3806918038bcb84f8b26d758f7648cd, type: 2}
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
-  - {fileID: 11400000, guid: e3806918038bcb84f8b26d758f7648cd, type: 2}
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
   - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
-  - {fileID: 11400000, guid: 65beb2677b0b4b44698644c166689f7f, type: 2}
+  - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
+  - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
+  - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
+  - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
+  - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
+  - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
+  - {fileID: 11400000, guid: 51316d8d3490bbf42b2d63a530249e61, type: 2}
   silverPeriod: 5
   goldPeriod: 30
   rewardsFrameExitButton: {fileID: 507646564}
@@ -2545,6 +2545,7 @@ MonoBehaviour:
   bronzeLevelLabelSprite: {fileID: 21300000, guid: c5b2341ec1376294fbf7edb8b931408d, type: 3}
   silverLevelLabelSprite: {fileID: 21300000, guid: bfa9fdc655674fd4c97adda6e8fbd3f6, type: 3}
   goldLevelLabelSprite: {fileID: 21300000, guid: 58c1f49b90c7c194fadb4ee9cff0d2f6, type: 3}
+  rotateCount: 5
 --- !u!1 &1970498638
 GameObject:
   m_ObjectHideFlags: 0

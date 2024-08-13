@@ -47,6 +47,7 @@ namespace SpinWheel
 
         private const int TOTAL_SLOTS = 8;
 
+        public int rotateCount;
 
         private GameObject currentLevelInstance;
 
@@ -122,7 +123,7 @@ namespace SpinWheel
             //Exit button is inactive since game started
             rewardsFrameExitButton.GetComponent<Button>().interactable = false;
 
-            int randomInt = UnityEngine.Random.Range(levelSettings[currentLevelNo - 1].MinimumRoll + rotateSpeed, levelSettings[currentLevelNo - 1].MaximumRoll + rotateSpeed);
+            int randomInt = UnityEngine.Random.Range(levelSettings[currentLevelNo - 1].MinimumRoll, levelSettings[currentLevelNo - 1].MaximumRoll);
             currentLevelInstance.GetComponent<SpinWheelPrefab>().RotateWheel(() =>
             {
 
@@ -176,7 +177,7 @@ namespace SpinWheel
                     }
                 }
             },
-            randomInt);
+            randomInt + rotateSpeed);
 
             currentLevelInstance.GetComponentInChildren<Button>().interactable = false;
         }

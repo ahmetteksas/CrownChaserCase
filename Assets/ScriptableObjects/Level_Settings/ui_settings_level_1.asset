@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ui_settings_level_1
   m_EditorClassIdentifier: 
   _minimumRoll: 1
-  _maximumRoll: 5
+  _maximumRoll: 7
   _rewards:
   - _slotItem: {fileID: 11400000, guid: cdfde0f5b97f378459a43416bfe6c295, type: 2}
     _amount: 1
@@ -27,7 +27,7 @@ MonoBehaviour:
     _amount: 1000
   - _slotItem: {fileID: 11400000, guid: cdfde0f5b97f378459a43416bfe6c295, type: 2}
     _amount: 10000
-  - _slotItem: {fileID: 11400000, guid: 97f6d761db4b1464fa426e75416ac86c, type: 2}
-    _amount: 1
+  - _slotItem: {fileID: 11400000, guid: cdfde0f5b97f378459a43416bfe6c295, type: 2}
+    _amount: 1000000
   - _slotItem: {fileID: 11400000, guid: cdfde0f5b97f378459a43416bfe6c295, type: 2}
     _amount: 100000
