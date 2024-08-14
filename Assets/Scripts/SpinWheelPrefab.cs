@@ -61,8 +61,15 @@ namespace SpinWheel
         {
             if (manager.rotateCount <= 0)
             {
+                if (manager.rewardsInventory.ItemAt(0).Amount >= 100)
+                {
+                    manager.getExtraSpin.SetActive(true);
+                }
+                else
+                {
+                    //manager.deathScreenPopUp.SetActive(true);
+                }
                 Debug.Log(spinButton.gameObject.name);
-                manager.getExtraSpin.SetActive(true);
                 spinButton.interactable = false;
             }
             else

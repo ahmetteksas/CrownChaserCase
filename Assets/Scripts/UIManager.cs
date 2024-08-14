@@ -34,8 +34,8 @@ namespace SpinWheel
         private GameObject goldPrefab;
         [SerializeField]
         private GameObject exitScreenPopUp;
-        [SerializeField]
-        private GameObject deathScreenPopUp;
+
+        public GameObject deathScreenPopUp;
         [SerializeField]
         private GameObject levelLabelPrefab;
         [SerializeField]
@@ -47,12 +47,12 @@ namespace SpinWheel
 
         private const int TOTAL_SLOTS = 8;
 
-        public int rotateCount;
 
         private GameObject currentLevelInstance;
 
         //Level number that increases each level starting from level 1
         private int currentLevelNo = 1;
+        public int rotateCount;
         public GameObject getExtraSpin;
         public Inventory rewardsInventory = new Inventory();
         void Start()
@@ -60,6 +60,7 @@ namespace SpinWheel
             GenerateLevelLabels();
             rewardsFrameExitButton.GetComponent<Button>().onClick.AddListener(ExitButtonCallback);
             InitLevel(currentLevelNo);
+            getExtraSpin.GetComponent<Button>().onClick.AddListener(() => GetExtraSpin());
         }
         void OnValidate()
         {
@@ -72,7 +73,19 @@ namespace SpinWheel
                 goldPeriod = silverPeriod + 1;
             }
         }
-
+        public void GetExtraSpin()
+        {
+            if (rewardsInventory.ItemAt(0).Amount >= 100)
+            {
+                rotateCount += 1;
+                rewardsInventory.ItemAt(0).Amount -= 100;
+                DisplayInventory();
+            }
+            else
+            {
+                //deathScreenPopUp.SetActive(true);
+            }
+        }
         private void InitLevel(int levelNo)
         {
 
@@ -121,7 +134,7 @@ namespace SpinWheel
         private void SpinWheel()
         {
             //Exit button is inactive since game started
-            rewardsFrameExitButton.GetComponent<Button>().interactable = false;
+            //rewardsFrameExitButton.GetComponent<Button>().interactable = false;
 
             int randomInt = UnityEngine.Random.Range(levelSettings[currentLevelNo - 1].MinimumRoll, levelSettings[currentLevelNo - 1].MaximumRoll);
             currentLevelInstance.GetComponent<SpinWheelPrefab>().RotateWheel(() =>
